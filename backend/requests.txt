@@ -1,0 +1,4 @@
+curl -X POST "http://localhost:8000/users" -H "Content-Type: application/json" -d '{"username": "testuser", "email": "testings2445@example.com", "password": "supersecretpassword"}'
+
+
+curl -X POST "http://localhost:8000/tweets" -H "Content-Type: application/json" -d '{"user_id": 1,"tweet": "This is a tweet", "tags": "test first"}'
