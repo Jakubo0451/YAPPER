@@ -15,6 +15,7 @@ function App() {
       if (response.ok) {
         const data = await response.json();
         setTweets(data);
+        console.log(data)
       }
     } catch (error) {
       console.error("Error fetching tweets: ", error);
